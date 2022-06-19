@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 const Header = () => {
     return (
         
-        <div className="py-0 justify-center text-center bg-blue3">
+        <div className="py-0 justify-center text-center bg-blue3" id="header">
             <div className="flex diagonal-box-2">
                     <a id="square" className="text-left justify-left "></a>
                 <div className="flex w-1/5">
