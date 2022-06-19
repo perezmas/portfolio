@@ -8,8 +8,8 @@ const About = () => {
             </div>
             <div className="grid grid-cols-2">
                 <div>
-                    <img src="" alt="about_me" decoding="async" data-nimg="intrinsic" className="pr-3 rounded-2xl filter drop-shadow-lg " />
-
+                    {/*<img src="" alt="about_me" decoding="async" data-nimg="intrinsic" className="pr-3 rounded-2xl filter drop-shadow-lg " />
+*/}
                 </div>
                 <div className="w-3/5 flex grid grid-cols-2">
                     <div className="pl-5">

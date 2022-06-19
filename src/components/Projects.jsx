@@ -6,8 +6,8 @@ const ProjectCard = ({name, description, stack, demo, code, image}) => {
                 <a href={demo} target="_blank" rel="noopener noreferrer" className="group transform hover:-translate-y-1 duration-300">
                     <div className="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
                         <div className="box-sizing:border-box;display:block;max-width:100%">
-                            <img src={image} alt="Prim-U" decoding="async" data-nimg="intrinsic" className="rounded-xl cursor-pointer  transform duration-300 group-hover:scale-110"/>
-                            
+                            {/*<img src={image} alt="Prim-U" decoding="async" data-nimg="intrinsic" className="rounded-xl cursor-pointer  transform duration-300 group-hover:scale-110"/>
+                            */}
                         </div>
                     </div> 
                 </a>
