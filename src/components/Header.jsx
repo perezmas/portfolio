@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 const Header = () => {
     return (
         
-        <div className="py-0 justify-center text-center bg-blue3" id="header">
+        <div className="py-0 justify-center text-center gradient-bg-header" id="header">
             <div className="flex diagonal-box-2">
                     <a id="square" className="text-left justify-left "></a>
                 <div className="flex w-1/5">
@@ -22,7 +22,7 @@ const Header = () => {
                     <FaGithubSquare size={50} className="text-white hover:text-[#fec70c]"/>
                 </a>
             </div>
-            <div className="text-white bg-blue3 grid grid-cols-4">
+            <div className="text-white gradient-bg-header grid grid-cols-4">
                 <div></div>
                 <div></div>
                 <div></div>
