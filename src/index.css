@@ -179,7 +179,7 @@ a:active {
 }
 
 .gradient-bg-resume {
-    background-color: #0B0014;
+    background-color: #fec70c;
     background-image:
         radial-gradient(at 0% 50%, rgb(80, 80, 80) 0, transparent 50%),
 }
@@ -198,7 +198,7 @@ a:active {
 }
 
 .gradient-bg-footer {
-    background-color: #3B28CC;
+    background-color: #0B0014;
     background-image:
         radial-gradient(at 0% 100%, rgba(16, 15, 21, 0.149) 0, transparent 53%),
         radial-gradient(at 70% 150%, rgba(0, 0, 0, 0.346) 0, transparent 50%);
