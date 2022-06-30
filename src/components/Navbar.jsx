@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <nav className="gradient-bg-navbar-2 w-full flex md:justify-center justify-between items-center pb-3 " id="navbar">
             <ul className="pt-3 sm:text-2xl md:text-xl md:flex hidden list-none flex-row justify-between items-center flex-initial text-white font-bold space-x-40">
-                {["Projects", "About", "Resume"].map((item, index) => (
+                {["Projects", "About", "Resumé"].map((item, index) => (
                     <NavbarItem key={item + index} title={item} classProps="lg:text-xl xl:text-3xl text-xl" />
                 ))}
             </ul>
@@ -38,7 +38,7 @@ const Navbar = () => {
                         <li className="text-xl w-full my-2">
                             <AiOutlineClose className="cursor-pointer" onClick={() => setToggleMenu(false)} />
                         </li>
-                        {["Projects", "About", "Resume"].map((item, index) => (
+                        {["Projects", "About", "Resumé"].map((item, index) => (
                             <NavbarItem key={item + index} title={item} classProps="my-2 font-bold text-xl" />
                         ))}
                     </ul>

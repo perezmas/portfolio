@@ -4,7 +4,7 @@ import weather from "./files/weather.png";
 
 const ProjectCard = ({name, description, stack, demo, code, image}) => {
     return (
-        <div className="md:max-w-sm md:h-[550px] lg:h-[550px]  lg:max-w-md max-w-md hover:shadow-xl rounded shadow-lg border-2 border-t-primary mb-2 bg-secondary-bg md:relative lg:col-start-div2 lg:col-end-div2 lg:row-start-div2 lg:row-end-div2 font-body">
+        <div className="md:max-w-sm md:h-[550px] lg:h-[550px]  lg:max-w-md max-w-md hover:shadow-xl rounded-lg shadow-lg border-2 border-t-primary mb-2 bg-secondary-bg md:relative lg:col-start-div2 lg:col-end-div2 lg:row-start-div2 lg:row-end-div2 font-body bg-slate-500/25">
             <div className="p-2 relative">
                 <a href={demo} target="_blank" rel="noopener noreferrer" className="group transform hover:-translate-y-1 duration-300">
                     <div className="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
@@ -50,8 +50,8 @@ const Projects = () => {
                     <a href="#projects">Projects</a>
                 </div>
                 <div className="flex flex-col items-center  md:justify-center w-full md:grid md:grid-cols-2 md:justify-items-center lg:grid lg:grid-cols-test lg:grid-row-t lg:justify-center md:gap-x-2 gap-y-2  lg:gap-x-4 lg:gap-y-3 p-1 py-7">
-                    <ProjectCard name="Scheduler" description="This is a fully customizable schedule planner for university CIS students who want to plan out their upcoming school terms (courses, semesters, and years)." stack="TypeScript" demo="https://ud-cisc275-f21.github.io/ud-cis-scheduler-team-6/#/" code="https://github.com/UD-CISC275-F21/ud-cis-scheduler-team-6/projects/1" image={cryptomax}/>
-                    <ProjectCard name="CryptoMax" description="This is a Web 3.0 app that implements solidity smart contracts in order to exchange Ethereum cryptocurrency to other user's wallets using Metamask." stack="JavaScript" demo="https://perezmas.github.io/ethereum/" code="https://github.com/perezmas/ethereum" image={scheduler}/>
+                    <ProjectCard name="Scheduler" description="This is a fully customizable schedule planner for university CIS students who want to plan out their upcoming school terms (courses, semesters, and years)." stack="TypeScript" demo="https://ud-cisc275-f21.github.io/ud-cis-scheduler-team-6/#/" code="https://github.com/UD-CISC275-F21/ud-cis-scheduler-team-6/projects/1" image={scheduler}/>
+                    <ProjectCard name="CryptoMax" description="This is a Web 3.0 app that implements solidity smart contracts in order to exchange Ethereum cryptocurrency to other user's wallets using Metamask." stack="JavaScript" demo="https://perezmas.github.io/ethereum/" code="https://github.com/perezmas/ethereum" image={cryptomax}/>
                     <ProjectCard name="Weather" description="This is a weather app that displays current weather data based on the location provided by the user." stack="JavaScript" demo="https://perezmas.github.io/weather-app-react/" code="https://github.com/perezmas/weather-app-react" image={weather}/>
                 </div>
             </div>
