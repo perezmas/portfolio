@@ -6,14 +6,14 @@ const About = () => {
     return (
         <div className="gradient-bg-about text-left" id="about">
             <div>
-                <a href="#about" className="py-1 text-center font-bold md:text-6xl xl:text-7xl text-5xl text-t-primary p-4 tracking-wider cursor-pointer">About</a>
+                <a href="#about" className="py-1 text-center font-bold md:text-6xl xl:text-7xl text-5xl text-t-primary p-4 tracking-wider cursor-pointer">About Me</a>
             </div>
-            <div className="flex flex flex-col items-center  md:justify-center w-full md:grid md:grid-cols-2 md:justify-items-center lg:grid lg:grid-cols-test lg:grid-row-t lg:justify-center md:gap-x-2 gap-y-2 lg:gap-x-4 lg:gap-y-3 py-5">
+            <div className="flex flex flex-col items-center md:justify-center w-full md:grid md:grid-cols-2 md:justify-items-center lg:grid lg:grid-cols-test lg:grid-row-t lg:justify-center md:gap-x-2 gap-y-2 lg:gap-x-4 lg:gap-y-3 py-5">
                 {/*<div>
                     <img src="" alt="about_me" decoding="async" data-nimg="intrinsic" className="pr-3 rounded-2xl filter drop-shadow-lg " />
                 </div>*/}
                 <div className="flex">
-                    <div className="">
+                    <div className="pr-4">
                         <FaUniversity size={70}/>
                     </div>
                     <div className="text-xiketic text-center text-xl md:text-2xl tracking-wide pt-2">
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex">
-                    <div className="">
+                    <div className="pr-4">
                         <MdPhotoCamera size={70} />
                     </div>
                     <div className="text-xiketic text-center text-xl md:text-2xl tracking-wide pt-2">
@@ -40,7 +40,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="flex">
-                    <div className="">
+                    <div className="pr-4">
                         <BsFileMusicFill size={70} />
                     </div>
                     <div className="text-xiketic text-center text-xl md:text-2xl tracking-wide pt-2">
