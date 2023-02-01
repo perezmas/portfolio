@@ -170,7 +170,8 @@ a:active {
 }
 
 .gradient-bg-about {
-    background-color: #fec70c;
+    /* background-color: #fec70c; */
+    background-color: #EEF1EF;
 }
 
 .gradient-bg-header {

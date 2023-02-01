@@ -1,6 +1,7 @@
 import cryptomax from "./files/cryptomax.png";
 import scheduler from "./files/scheduler.png";
 import weather from "./files/weather.png";
+import ai from "./files/maxai.png";
 
 const ProjectCard = ({name, description, stack, demo, code, image}) => {
     return (
@@ -26,7 +27,7 @@ const ProjectCard = ({name, description, stack, demo, code, image}) => {
             <div className="px-6 pt-2 pb-2 text-cultured">
                 <p className="text-lg pb-3 font-display font-light">Tools</p>
                 <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #{stack}
+                    {stack}
                 </span>
             </div>
             <div className="flex items-center justify-between px-7 py-2   md:w-full ">
@@ -50,9 +51,10 @@ const Projects = () => {
                     <a href="#projects">Projects</a>
                 </div>
                 <div className="flex flex-col items-center  md:justify-center w-full md:grid md:grid-cols-2 md:justify-items-center lg:grid lg:grid-cols-test lg:grid-row-t lg:justify-center md:gap-x-2 gap-y-2  lg:gap-x-4 lg:gap-y-3 p-1 py-7">
-                    <ProjectCard name="Scheduler" description="This is a fully customizable schedule planner for university CIS students who want to plan out their upcoming school terms (courses, semesters, and years)." stack="TypeScript" demo="https://ud-cisc275-f21.github.io/ud-cis-scheduler-team-6/#/" code="https://github.com/UD-CISC275-F21/ud-cis-scheduler-team-6/projects/1" image={scheduler}/>
-                    <ProjectCard name="CryptoMax" description="This is a Web 3.0 app that implements solidity smart contracts in order to exchange Ethereum cryptocurrency to other user's wallets using Metamask." stack="JavaScript" demo="https://perezmas.github.io/ethereum/" code="https://github.com/perezmas/ethereum" image={cryptomax}/>
-                    <ProjectCard name="Weather" description="This is a weather app that displays current weather data based on the location provided by the user." stack="JavaScript" demo="https://perezmas.github.io/weather-app-react/" code="https://github.com/perezmas/weather-app-react" image={weather}/>
+                    <ProjectCard name="MaxAI" description="This is a fully responsive ChatGPT AI Application that will chat with the user ChatGPT API." stack="JavaScript, ChatGPT API, NodeJS, Vercel, Render" demo="https://maxai.vercel.app/" code="https://github.com/perezmas/maxai" image={ai}/>
+                    <ProjectCard name="Weather" description="This is a weather app that displays current weather data based on the location provided by the user." stack="JavaScript, Axios, OpenWeatherMapAPI, React" demo="https://perezmas.github.io/weather-app-react/" code="https://github.com/perezmas/weather-app-react" image={weather}/>
+                    <ProjectCard name="Scheduler" description="This is a fully customizable schedule planner for university CIS students who want to plan out their upcoming school terms (courses, semesters, and years)." stack="TypeScript, React" demo="https://ud-cisc275-f21.github.io/ud-cis-scheduler-team-6/#/" code="https://github.com/UD-CISC275-F21/ud-cis-scheduler-team-6/projects/1" image={scheduler}/>
+                    <ProjectCard name="CryptoMax" description="This is a Web 3.0 app that implements solidity smart contracts in order to exchange Ethereum cryptocurrency to other user's wallets using Metamask." stack="JavaScript, Solidity, MetaMask, Alchemy API, Alchemy Blockchain API, React" demo="https://perezmas.github.io/ethereum/" code="https://github.com/perezmas/ethereum" image={cryptomax}/>
                 </div>
             </div>
         </div>
