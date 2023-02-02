@@ -4,7 +4,7 @@ import {MdPhotoCamera} from 'react-icons/md';
 
 const AboutCard = ({icon, title, subtitle}) => {
     return (
-        <div className="flex md:max-w-sm md:h-[550px] lg:h-[550px]  lg:max-w-md max-w-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 duration-300 rounded-lg shadow-lg border-2 border-t-primary mb-2 bg-secondary-bg md:relative lg:col-start-div2 lg:col-end-div2 lg:row-start-div2 lg:row-end-div2 font-body bg-slate-500/25">
+        <div className="flex-auto w-80 transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 duration-300 rounded-lg shadow-lg border-2 border-t-primary mb-2 bg-secondary-bg md:relative lg:col-start-div2 lg:col-end-div2 lg:row-start-div2 lg:row-end-div2 font-body bg-slate-500/25">
             <div className="pr-4">
                 {icon}
             </div>
