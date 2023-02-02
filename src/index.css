@@ -171,7 +171,8 @@ a:active {
 
 .gradient-bg-about {
     /* background-color: #fec70c; */
-    background-color: #fec70c;
+    background-color: #EEF1EF;
+    /* background-image: linear-gradient(180deg, #000000, #0000007d , transparent 30%); */
 }
 
 .gradient-bg-header {

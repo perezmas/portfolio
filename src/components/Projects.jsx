@@ -59,6 +59,9 @@ const Projects = () => {
                     <ProjectCard name="CryptoMax" description="This is a Web 3.0 app that implements solidity smart contracts in order to exchange Ethereum cryptocurrency to other user's wallets using Metamask." stack="JavaScript, Solidity, MetaMask, Alchemy API, Alchemy Blockchain API, React" demo="https://perezmas.github.io/ethereum/" code="https://github.com/perezmas/ethereum" image={cryptomax}/>
                 </div>
             </div>
+            <div className="h-96">
+                <br />
+            </div>
         </div>
     );
 }

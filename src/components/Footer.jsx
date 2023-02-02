@@ -2,10 +2,10 @@ const Footer = () => {
     return (
         <div className="w-full flex md:justify-center justify-between items-center flex-col p-4 gradient-bg-footer" id="footer">
             <div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
-                <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full">
-                    <a href="#projects" className="text-cultured text-base text-center mx-2 cursor-pointer">Projects</a>
-                    <a href="#about" className="text-cultured text-base text-center mx-2 cursor-pointer">About</a>
-                    <a href="#resume" className="text-cultured text-base text-center mx-2 cursor-pointer">Resumé</a>
+                <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full ">
+                    <a href="#projects" className="text-cultured text-base text-center mx-2 cursor-pointer hover:text-[#fec70c]">Projects</a>
+                    <a href="#about" className="text-cultured text-base text-center mx-2 cursor-pointer hover:text-[#fec70c]">About</a>
+                    <a href="#resume" className="text-cultured text-base text-center mx-2 cursor-pointer hover:text-[#fec70c]">Resumé</a>
                     {/*<a href="#contact" className="text-cultured text-base text-center mx-2 cursor-pointer">Contact</a>*/}
                 </div>
             </div>
