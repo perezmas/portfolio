@@ -5,7 +5,7 @@ import ai from "./files/maxai.png";
 
 const ProjectCard = ({name, description, stack, demo, code, image}) => {
     return (
-        <div className="md:max-w-sm md:h-[550px] lg:h-[550px]  lg:max-w-md max-w-md hover:shadow-xl rounded-lg shadow-lg border-2 border-t-primary mb-2 bg-secondary-bg md:relative lg:col-start-div2 lg:col-end-div2 lg:row-start-div2 lg:row-end-div2 font-body bg-slate-500/25">
+        <div className="md:max-w-sm md:h-[550px] lg:h-[550px]  lg:max-w-md max-w-md transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 duration-300 rounded-lg shadow-lg border-2 border-t-primary mb-2 bg-secondary-bg md:relative lg:col-start-div2 lg:col-end-div2 lg:row-start-div2 lg:row-end-div2 font-body bg-slate-500/25">
             <div className="p-2 relative">
                 <a href={demo} target="_blank" rel="noopener noreferrer" className="group transform hover:-translate-y-1 duration-300">
                     <div className="display:inline-block;max-width:100%;overflow:hidden;position:relative;box-sizing:border-box;margin:0">
@@ -17,7 +17,9 @@ const ProjectCard = ({name, description, stack, demo, code, image}) => {
                 </a>
             </div>
             <div className="px-6 py-4">
-                <p className="text-cultured font-semibold tracking-wider font-display text-xl mb-2">{name}</p>
+                <a href={demo} target="_blank" rel="noopener noreferrer">
+                    <p className="text-cultured font-semibold tracking-wider font-display text-xl mb-2">{name}</p>
+                </a>
                 <div>
                     <p className="text-cultured text-t-primary text-base font-body">
                         {description}
