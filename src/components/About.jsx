@@ -24,14 +24,23 @@ const About = () => {
             </div>
             <div>
                 <div>
-                    <a href="#about" className=" py-1 text-center font-bold md:text-6xl xl:text-7xl text-5xl text-t-primary p-4 tracking-wider cursor-pointer">About Me</a>
+                    <a href="#about" className="hover:text-[#fec70c] py-1 text-center font-bold md:text-6xl xl:text-7xl text-5xl text-t-primary p-4 tracking-wider cursor-pointer">About</a>
                 </div>
-                <div className="flex flex flex-col items-center md:justify-center w-full md:grid md:grid-cols-2 md:justify-items-center lg:grid lg:grid-cols-test lg:grid-row-t lg:justify-center md:gap-x-2 gap-y-2 lg:gap-x-4 lg:gap-y-3 py-5">
-                    {/* <AboutCard icon={<FaUniversity size={70}/>} title="University of Delaware" subtitle="Information Systems B.S."/>
+                <div className="text-left ">
+                    <h1 className="quote flex justify-center">
+                        I'm Max, a creator and a problem solver. <br />
+                    </h1>
+                    <p className="description flex justify-center">
+                        Ever since I taught my self how to solve the Rubik's cube, I have been fascinated with new challenges and how to solve them. Find me spending hours at a time, working on a new challenge in order to find innovative and creative solutions. <br /><br />
+                        I enjoy creating new things and putting them out into the digital world. Current side projects include a blog about personal development as well as music production, using Logic Pro X.
+                    </p>
+                </div>
+                {/* <div className="flex flex-col ">
+                    <AboutCard icon={<FaUniversity size={70}/>} title="University of Delaware" subtitle="Information Systems B.S."/>
                     <AboutCard icon={<BsBank size={70} />} title="WSFS Bank" subtitle="App & Data Services Intern"/>
                     <AboutCard icon={<MdPhotoCamera size={70} />} title="Freelance Photography" subtitle="As a hobby!"/>
-                    <AboutCard icon={<BsFileMusicFill size={70} />} title="Indie Music Production" subtitle="Another hobby!"/> */}
-                </div>
+                    <AboutCard icon={<BsFileMusicFill size={70} />} title="Indie Music Production" subtitle="Another hobby!"/>
+                </div> */}
             </div>
             <div className="gradient-bg-about-me h-15">
                 <br />

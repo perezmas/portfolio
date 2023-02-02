@@ -148,7 +148,7 @@ li:active {
 }
 
 a:active {
-    color: blue;
+    color: #fec70c;
 }
 
 .gradient-bg-home {
@@ -250,6 +250,23 @@ a:active {
 
 div{
     overflow-x: hidden;
+}
+
+.quote {
+    display: block;
+    padding-bottom: 2%;
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    line-height: 1.3em;
+    font-weight: 300;
+}
+
+.description {
+    max-width: 75%;
+    font-family: 'Georgia', sans-serif;
+    font-size: 24px;
+    line-height: 1.9em;
+    font-weight: 400;
 }
 
 @tailwind base;
