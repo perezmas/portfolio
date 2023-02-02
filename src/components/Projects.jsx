@@ -49,8 +49,8 @@ const Projects = () => {
     return (
         <div className="gradient-bg-projects">
             <div>
-                <div className="text-left text-cultured md:text-6xl xl:text-7xl text-5xl text-t-primary p-4  font-display tracking-wider cursor-pointer font-bold" id="projects">
-                    <a href="#projects">Projects</a>
+                <div className="text-left text-cultured md:text-6xl xl:text-7xl text-5xl text-t-primary p-4  font-display tracking-wider  font-bold " id="projects">
+                    <a href="#projects" className="hover:text-[#fec70c] cursor-pointer">Projects</a>
                 </div>
                 <div className="flex flex-col items-center  md:justify-center w-full md:grid md:grid-cols-2 md:justify-items-center lg:grid lg:grid-cols-test lg:grid-row-t lg:justify-center md:gap-x-2 gap-y-2  lg:gap-x-4 lg:gap-y-3 p-1 py-7">
                     <ProjectCard name="MaxAI" description="This is a fully responsive ChatGPT AI Application that will chat with the user ChatGPT API." stack="JavaScript, ChatGPT API, NodeJS, Vercel, Render" demo="https://maxai.vercel.app/" code="https://github.com/perezmas/maxai" image={ai}/>

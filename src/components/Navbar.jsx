@@ -10,7 +10,7 @@ const scrollFunction = (title) => {
 
 const NavbarItem = ({ title, classProps }) => {
     return (
-        <a href={`#${title.toLowerCase()}`} className={` hover:text-[#ff69b4] mx-4 cursor-pointer ${classProps}`}>
+        <a href={`#${title.toLowerCase()}`} className={` hover:text-[#fec70c] mx-4 cursor-pointer ${classProps}`}>
             {title}
         </a>
     )
