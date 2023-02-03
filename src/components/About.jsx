@@ -23,16 +23,16 @@ const About = () => {
                 <br />
             </div>
             <div>
-                <div>
-                    <a href="#about" className="hover:text-[#fec70c] py-1 text-center font-bold md:text-6xl xl:text-7xl text-5xl text-t-primary p-4 tracking-wider cursor-pointer">About</a>
+                <div className="py-9">
+                    <a href="#about" className="hover:text-[#fec70c] text-center font-bold md:text-6xl xl:text-7xl text-5xl text-t-primary p-4 tracking-wider cursor-pointer">About</a>
                 </div>
-                <div className="text-left ">
-                    <h1 className="quote flex justify-center">
-                        I'm Max, a creator and a problem solver. <br />
+                <div className="text-left flex justify-center">
+                    <h1 className="quote flex justify-center xl:text-7xl">
+                        I'm Max, a creator & a problem solver. <br />
                     </h1>
-                    <p className="description flex justify-center">
-                        Ever since I taught my self how to solve the Rubik's cube, I have been fascinated with new challenges and how to solve them. Find me spending hours at a time, working on a new challenge in order to find innovative and creative solutions. <br /><br />
-                        I enjoy creating new things and putting them out into the digital world. Current side projects include a blog about personal development as well as music production, using Logic Pro X.
+                    <p className="description flex justify-center xl:text-1xl px-3">
+                        Ever since I taught my self how to solve the Rubik's cube, I have been fascinated with new challenges and how to solve them. Find me spending hours at a time, working on a new challenge in order to find innovative and creative solutions. I enjoy creating new things and putting them out into the digital world.  new ways to challenge myself and push my boundaries. I'm always looking for new ways to learn and grow, and I'm never afraid to take risks. Taking risks is the only way to truly make progress in life.<br /><br />
+                        Current side projects include a blog about personal development as well as music production, using Logic Pro X. I am confident that my skills and experience make me an ideal candidate for this position. I am eager to learn more about the role and how I can contribute to the success of your organization. I am excited to discuss my qualifications in further detail and look forward to hearing from you soon. Please take a moment to check out my resumé and consider me for this opportunity!
                     </p>
                 </div>
                 {/* <div className="flex flex-col ">
