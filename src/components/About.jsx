@@ -35,12 +35,6 @@ const About = () => {
                         I have a passion for software development and I am confident that I can use my creativity to develop innovative applications. My experience in coding and problem solving makes me an ideal candidate for any software development role. If you are looking for someone who is creative, passionate, and experienced in software development, then I am the perfect fit for your team. Please take a moment to check out my resumé and contact me to discuss how I can help you achieve your goals!
                     </p>
                 </div>
-                {/* <div className="flex flex-col ">
-                    <AboutCard icon={<FaUniversity size={70}/>} title="University of Delaware" subtitle="Information Systems B.S."/>
-                    <AboutCard icon={<BsBank size={70} />} title="WSFS Bank" subtitle="App & Data Services Intern"/>
-                    <AboutCard icon={<MdPhotoCamera size={70} />} title="Freelance Photography" subtitle="As a hobby!"/>
-                    <AboutCard icon={<BsFileMusicFill size={70} />} title="Indie Music Production" subtitle="Another hobby!"/>
-                </div> */}
             </div>
             <div className="gradient-bg-about-me h-15">
                 <br />
